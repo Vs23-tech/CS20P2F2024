@@ -22,7 +22,7 @@ public class RectanglePerimeter
 		int area = length * width;
 		System.out.print("The area of the rectangle is: " + area);
 		
-	
+		System.out.print("area");
 	
 	
 	
