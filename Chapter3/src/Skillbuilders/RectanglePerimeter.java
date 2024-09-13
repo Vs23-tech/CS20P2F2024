@@ -1,5 +1,6 @@
 package Skillbuilders;
 import java.util.*;
+import java.text.DecimalFormat;
 public class RectanglePerimeter
 {
 
@@ -10,23 +11,20 @@ public class RectanglePerimeter
 		Scanner userInput = new Scanner(System.in);
 		
 		
-		//Declaration and initialization
-		
-		System.out.print("Please enter a length value: ");
+		System.out.print("Please enter a value for lenght: ");
 		int length = userInput.nextInt();
 		
-		System.out.print("Please enter a length value: ");
+		System.out.print("Please enter a value for width: ");
 		int width = userInput.nextInt();
 		
 	
-		int area = length * width;
-		System.out.print("The area of the rectangle is: " + area);
+		int perimeter = 2*length * 2*width;
+		System.out.print("The perimeter of the rectangle is 2W + 2L: " + perimeter);
 		
-		System.out.print("area");
+		
 	
 	
 	
-	
-	}
+	}       
 
 } 
